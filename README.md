@@ -37,7 +37,7 @@ Best is to set up the script as a service on Linux rather than run it directly f
 
 4. Create the service file
 
-`/etc/systemd/system/docker-logs-web.service`
+`sudo nano /etc/systemd/system/docker-logs-web.service`
 
 5. Add the following
 
