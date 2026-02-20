@@ -7,6 +7,12 @@ Web server for docker logs
 I was looking for a quick way to access my docker logs without the fuss of setting up a compicated monitoring tool like Grafana, Prometheus or other. This is a 3hours project to offer a webserver for docker logs for any homlabber.
 The web server is served on port `8080` and is written to be exposed to all interfaces (i.e. Tailscale, VPN tunnel of any sort, LAN and/or web if your host is exposed to the web too. You can restrict the interfaces in the netcat command in the script.
 
+⚠️ This is a WIP and will add features as we go like auto-refresh or filtering/search abilities
+
+&emsp;
+
+⚠️ Make sure you have all dependencies installed. If not, run `sudo apt install gq netcat-traditional`
+
 &emsp;
 
 ---
